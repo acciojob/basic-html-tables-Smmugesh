@@ -3,10 +3,37 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<title>Basic HTML Tables</title>
+	<style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
 </head>
 
 <body>
+	 <table>
+        <thead>
+            <tr>
+                <th>Roll number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ritesh</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Mugesh</td>
+            </tr>
+        </tbody>
+    </table>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
